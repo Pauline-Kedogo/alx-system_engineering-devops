@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# Script to generate SSH key pair
+
+ssh-keygen -f school -b 8592 -N betty
