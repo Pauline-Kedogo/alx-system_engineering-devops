@@ -1,9 +1,7 @@
 #!/usr/bin/env bash
-# This script is displaying "Best School" 10 times
+# Script to print 'Best School' 10 times
 
-for ((i = 0; i < 10; i++));
+for ((x=0; x < 10; x++))  # $(seq 1 10) and {1..10}(range), are alternatives
 do
-    echo "Best School"
+	echo "Best School"
 done
-
-exit 0
